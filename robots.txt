@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /ele/
+
+Sitemap: http://www.espaceetstyle.fr/sitemap.xml
