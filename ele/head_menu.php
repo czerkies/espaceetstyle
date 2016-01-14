@@ -2,7 +2,7 @@
 	<body>
 		<a href="/">
 		<div class="logo">
-			<img src="/Ban1440jpg.jpg" alt="Espace et Style - Spécialisés dans l’agencement d’espace">
+			<img src="<?= RACINE; ?>Ban1440jpg.jpg" alt="Espace et Style - Spécialisés dans l’agencement d’espace">
 			<?php
 			if ($menu === 'accueil') {
 				echo '<h1 class="signature_acc">Agencement - Décoration - Rénovation</h1>';
