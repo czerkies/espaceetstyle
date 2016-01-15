@@ -13,6 +13,10 @@
 	-o-box-sizing:border-box;
 	box-sizing:border-box;
 }
+.clear{
+	clear:both;
+	height:1px;
+}
 a {
 	text-decoration:none;
 	transition:color 250ms ease, background 250ms ease;
@@ -313,6 +317,15 @@ form {
 	margin:0;
 	background:rgba(203,204,203,.9);
 }
+form .rbt{
+	display:none;
+}
+form div{
+	width:98%;
+	margin:1%;
+	font-family:'cdr';
+	font-size:2em;
+}
 input,
 textarea {
 	transition:background 250ms ease, color 250ms ease;
@@ -571,13 +584,18 @@ a:active .flech_g img {
 	form {
 		z-index:10;
 		width:800px;
-		height:380px;
+		height:auto;
 		padding:0;
 		margin:50px auto;
 		border-radius:2px;
 		-webkit-animation:form 3s ease;
 		-moz-animation:form 3s ease;
 		box-shadow:0 0 16px rgba(0,0,0,.25);
+	}
+	form div{
+		width:378px;
+		margin:10px;
+		font-size:1em;
 	}
 	@-webkit-keyframes form {
 		0% {opacity:0;-webkit-transform:translate(0,-250px);}

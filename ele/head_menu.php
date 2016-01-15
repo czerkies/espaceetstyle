@@ -19,19 +19,19 @@
 		</div>
 		<nav class="menu">
 			<ul>
-				<li<?php if($menu === 'accueil') {echo ' class="ac"';} ?>><a href="/">Accueil</a></li>
-				<li<?php if($menu === 'quisommesnous') {echo ' class="ac"';} ?>><a href="/qui-sommes-nous/">Qui sommes nous ?</a></li>
-				<li<?php if($menu === 'votreprojet') {echo ' class="ac"';} ?>><a href="/votre-projet/">Votre projet</a></li>
-				<li><a <?php if($menu === 'notre-demarche') {echo ' class="ac"';} ?> href="/notre-demarche/">Notre démarche</a>
+				<li<?php if($menu === 'accueil') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>">Accueil</a></li>
+				<li<?php if($menu === 'quisommesnous') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>qui-sommes-nous/">Qui sommes nous ?</a></li>
+				<li<?php if($menu === 'votreprojet') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>votre-projet/">Votre projet</a></li>
+				<li><a <?php if($menu === 'notre-demarche') {echo ' class="ac"';} ?> href="<?= RACINE; ?>notre-demarche/">Notre démarche</a>
 					<ul>
-						<li<?php if($menu === 'nouveaux-locaux') {echo ' class="ac"';} ?>><a href="/nouveaux-locaux/">Emménagement dans vos nouveaux locaux</a></li>
-						<li<?php if($menu === 'point-de-vente') {echo ' class="ac"';} ?>><a href="/point-de-vente/">Agrandissement de votre point de vente</a></li>
-						<li<?php if($menu === 'charte-graphite') {echo ' class="ac"';} ?>><a href="/charte-graphite/">Évolution de votre charte graphite</a></li>
-						<li<?php if($menu === 'espace-de-vente') {echo ' class="ac"';} ?>><a href="/espace-de-vente/">Moderniser votre espace de vente</a></li>
+						<li<?php if($menu === 'nouveaux-locaux') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>nouveaux-locaux/">Emménagement dans vos nouveaux locaux</a></li>
+						<li<?php if($menu === 'point-de-vente') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>point-de-vente/">Agrandissement de votre point de vente</a></li>
+						<li<?php if($menu === 'charte-graphite') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>charte-graphite/">Évolution de votre charte graphite</a></li>
+						<li<?php if($menu === 'espace-de-vente') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>espace-de-vente/">Moderniser votre espace de vente</a></li>
 					</ul>
 				</li>
-				<li<?php if($menu === 'nosrealisations') {echo ' class="ac"';} ?>><a href="/nos-realisations/">Nos réalisations</a></li>
-				<li<?php if($menu === 'contact') {echo ' class="ac"';} ?>><a href="/contact-devis/">Contact</a></li>
+				<li<?php if($menu === 'nosrealisations') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>nos-realisations/">Nos réalisations</a></li>
+				<li<?php if($menu === 'contact') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>contact-devis/">Contact</a></li>
 			</ul>
 		</nav>
 		<div class="prin">

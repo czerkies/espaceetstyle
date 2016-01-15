@@ -1,4 +1,5 @@
-<?php 
+<?php
+include_once 'mail.php';
 $menu = 'contact';
 include('../ele/doc.php');
 ?>
@@ -6,14 +7,19 @@ include('../ele/doc.php');
 		<meta name="description" content="Contacter Espace et Style pour toutes demandes de renseignements ou devis.">
 	<?php include('../ele/head_menu.php'); ?>
 			<div class="formu car">
-				<form method="post" action="mail_task.php">
-					<input type="text" name="nom" placeholder="Nom" title="Nom" required>
-					<input type="text" name="prenom" placeholder="Prénom" title="Prénom" required>
-					<input type="text" name="societe" placeholder="Société" title="Société">
-					<input type="tel" name="tel" placeholder="Téléphone" title="Téléphone">
-					<input type="email" name="mail" placeholder="Mail" title="Mail" required>
-					<textarea type="text" name="message" placeholder="Descriptif de vos besoins" title="Descriptif de vos besoins" required></textarea>
+				<form method="post" action="">
+					<input type="text" name="nom" id="nom" placeholder="Nom" title="Nom" value="<?php if(isset($_POST['nom'])) echo $_POST['nom']; ?>" required>
+					<input type="text" name="prenom" placeholder="Prénom" title="Prénom" value="<?php if(isset($_POST['prenom'])) echo $_POST['prenom']; ?>">
+					<input type="text" name="societe" placeholder="Société" title="Société" value="<?php if(isset($_POST['societe'])) echo $_POST['societe']; ?>">
+					<input type="tel" name="tel" placeholder="Téléphone" title="Téléphone" value="<?php if(isset($_POST['telephone'])) echo $_POST['telephone']; ?>">
+					<input type="email" name="mail" id="mail" placeholder="Mail" title="Mail" required value="<?php if(isset($_POST['mail'])) echo $_POST['mail']; ?>">
+					<textarea type="text" name="message" id="message" placeholder="Descriptif de vos besoins" title="Descriptif de vos besoins" required><?php if(isset($_POST['message'])) echo $_POST['message']; ?></textarea>
+					<input class="rbt" type="text" name="rbt" value="<?php if(isset($_POST['rbt'])) echo $_POST['rbt']; ?>">
 					<input type="submit" value="Envoyer">
+					<?php if(isset($msg)){
+						echo '<div>'.$msg.'</div>';
+					} ?>
+					<div class="clear"></div>
 				</form>
 				<img src="bureau.jpg" alt="Espace et Style - Contact Bureau">
 			</div>
