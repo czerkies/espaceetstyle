@@ -34,6 +34,7 @@
 				<li<?php if($menu === 'notre-demarche') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>notre-demarche/">Notre démarche</a></li>
 				<li<?php if($menu === 'nosrealisations') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>nos-realisations/">Nos réalisations</a></li>
 				<li<?php if($menu === 'contact') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>contact-devis/">Contact</a></li>
+				<li<?php if($menu === 'faq') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>faq/">FAQ</a></li>
 			</ul>
 		</nav>
 		<div class="prin">
