@@ -15,8 +15,12 @@
 }
 a {
 	text-decoration:none;
-	transition:color 250ms ease, background 250ms ease;
+	transition:color 250ms ease, background 250ms ease, text-shadow 250ms ease;
 	color:inherit;
+}
+.clear{
+	clear:both;
+	height:1px;
 }
 p {
 	margin:0;
@@ -327,6 +331,15 @@ form {
 	margin:0;
 	background:rgba(203,204,203,.9);
 }
+form .rbt{
+	display:none;
+}
+form div{
+	width:98%;
+	margin:1%;
+	font-family:'cdr';
+	font-size:2em;
+}
 input,
 textarea {
 	transition:background 250ms ease, color 250ms ease;
@@ -462,6 +475,30 @@ a:active .flech_g img {
 .bloc_s_menu p{
 	padding:20px;
 }
+.car.votreprojet img {
+	-webkit-animation:none;
+	-moz-animation:none;
+}
+.menu_votreprojet{
+	background:#fff;
+	padding:4%;
+}
+.menu_votreprojet ul{
+	padding:0;
+	margin:10% 0 0;
+}
+.menu_votreprojet li{
+	list-style:none;
+	font-family:'exp', arial;
+	font-size:.75em;
+	color:#22778e;
+	padding:2% 0;
+}
+.menu_votreprojet li a:hover{
+	text-shadow:0 0 2px #22778e;
+}
+
+/* Responsive design */
 @media screen and (min-device-width: 600px) {
 	.logo {
 		width:100%;
@@ -612,13 +649,18 @@ a:active .flech_g img {
 	form {
 		z-index:10;
 		width:800px;
-		height:380px;
+		height:auto;
 		padding:0;
 		margin:50px auto;
 		border-radius:2px;
 		-webkit-animation:form 3s ease;
 		-moz-animation:form 3s ease;
 		box-shadow:0 0 16px rgba(0,0,0,.25);
+	}
+	form div{
+		width:378px;
+		margin:10px;
+		font-size:1em;
 	}
 	@-webkit-keyframes form {
 		0% {opacity:0;-webkit-transform:translate(0,-250px);}
@@ -691,6 +733,12 @@ a:active .flech_g img {
 	.sous-foot h1 {
 		width:960px;
 	}
+	.car.votreprojet img,
+	.car.votreprojet .menu_votreprojet{
+		float:left;
+		width:50%;
+		height:auto;
+	}
 }
 
 @media only screen and (min-width:1440px) {
@@ -752,6 +800,12 @@ a:active .flech_g img {
 		margin:125px 0 0;
 	}
 	.sous-foot {
+		font-size:1em;
+	}
+	.car.votreprojet {
+		height:auto;
+	}
+	.menu_votreprojet li{
 		font-size:1em;
 	}
 }
