@@ -1,8 +1,8 @@
-<?php 
+<?php
 $menu = 'nosrealisations';
 include('../ele/doc.php');
 ?>
-		<title>Aménagement boutique - Réalisations | Espace et Style</title>
+		<title>Rénovation boutique - Décoration magasin - Réalisations | Espace et Style</title>
 		<meta name="description" content="Nos réalisations : Spécialisés dans l’agencement d’espace, nous sommes à votre disposition pour étudier tout projet de rénovation, décoration ou agencement.">
 	<?php include('../ele/head_menu.php'); ?>
 				<div class="rea">
@@ -21,6 +21,7 @@ include('../ele/doc.php');
 				</div>
 				<div class="rea_descriptions">
 					<div>
+						<h1>Découvrez nos réalisations d'agencement d'espace</h1>
 						<h2>Boutique Cartridge World</h2>
 						<p></p>
 					</div>

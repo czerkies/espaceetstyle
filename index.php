@@ -2,7 +2,7 @@
 $menu = 'accueil';
 include('ele/doc.php');
 ?>
-		<title>Agencement d'espace, décorateur et architecte | Espace et Style</title>
+		<title>Agencement d'espace - Agencement boutique | Espace et Style</title>
 		<meta name="description" content="Spécialisés dans l’agencement d’espace, nous sommes à votre disposition pour étudier tout projet de rénovation, décoration ou agencement.">
 	<?php include('ele/head_menu.php'); ?>
 			<div class="car car_acc">
@@ -13,7 +13,7 @@ include('ele/doc.php');
 						De même, l'inaction sape la vigueur de l'esprit."<br>
 						<span>Léonard De Vinci</span><p>
 					</div>
-					<a href="<?= RACINE; ?>qui-sommes-nous/">
+					<a href="/qui-sommes-nous/">
 						<div class="accueil_center">
 							Agencer votre espace, le faire vivre pour révéler votre potentiel...
 						</div>

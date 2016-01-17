@@ -13,27 +13,33 @@
 	-o-box-sizing:border-box;
 	box-sizing:border-box;
 }
-.clear{
-	clear:both;
-	height:1px;
-}
 a {
 	text-decoration:none;
 	transition:color 250ms ease, background 250ms ease;
 	color:inherit;
+}
+p {
+	margin:0;
 }
 .menu,
 h1,
 h2 {
 	font-family:'exp',arial;
 	font-weight:100;
+	color:#22778e;
+	margin:0;
 }
 h1 {
-	margin:0;
+	font-size:1.25em;
+}
+.bloc_0 h1{
+	padding:20px;
+}
+.rea_descriptions h1{
+	padding:10px;
 }
 h2 {
 	font-size:2.25em;
-	color:#22778e;
 }
 body {
 	width:100%;
@@ -93,6 +99,7 @@ body {
 	font-size:2em;
 	color:#eee;
 	float:left;
+	border-top:1px solid #fff;
 }
 .menu .ac a,
 .menu .ac{
@@ -109,12 +116,9 @@ body {
 	position:absolute;
 	z-index:4000;
 	float:left;
-	width:530px;
+	width:100%;
 	height:auto;
-	margin:50px 0 0;
-}
-.menu li ul li:last-child a{
-	border-radius:0 0 4px 4px;
+	margin:0;
 }
 .menu li ul li {
 	width:100%;
@@ -122,8 +126,13 @@ body {
 .menu li ul li a {
 	background:rgba(34, 119, 142, 0.95);
 	width:100%;
+	letter-spacing:1px;
+	font-size:.8em;
 }
 .menu li ul li a:hover {
+	background:rgba(203, 204, 203, 0.95);
+}
+.menu li ul li .ac {
 	background:rgba(203, 204, 203, 0.95);
 }
 .menu li:hover ul {
@@ -196,6 +205,7 @@ body {
 .bloc_0 p {
 	font-family:'cdr', arial;
 	min-height:50px;
+	text-align:justify;
 }
 .bloc_1 {
 	padding:15px;
@@ -316,15 +326,6 @@ form {
 	padding:2%;
 	margin:0;
 	background:rgba(203,204,203,.9);
-}
-form .rbt{
-	display:none;
-}
-form div{
-	width:98%;
-	margin:1%;
-	font-family:'cdr';
-	font-size:2em;
 }
 input,
 textarea {
@@ -453,10 +454,15 @@ a:active .flech_g img {
 	margin:30px 0;
 	padding:10px;
 }
+.sous-foot h1,
 .sous-foot p{
 	margin:auto;
 }
-@media screen and (min-width: 600px) {
+.bloc_s_menu h2,
+.bloc_s_menu p{
+	padding:20px;
+}
+@media screen and (min-device-width: 600px) {
 	.logo {
 		width:100%;
 		min-width:980px;
@@ -487,6 +493,9 @@ a:active .flech_g img {
 		height:50px;
 		margin:0;
 	}
+	.menu li {
+		float:left;
+	}
 	.menu ul {
 		width:980px;
 		margin:0 auto;
@@ -498,6 +507,20 @@ a:active .flech_g img {
 		margin:0;
 		line-height:50px;
 		font-size:.7em;
+		border-top:none;
+	}
+	.menu li ul li:last-child a{
+		border-radius:0 0 4px 4px;
+	}
+	.menu li ul {
+		display:none;
+		position:absolute;
+		z-index:4000;
+		float:left;
+		width:530px;
+		height:auto;
+		margin:50px 0 0;
+		border-radius:0 0 4px 4px;
 	}
 	.formu {
 		height:auto;
@@ -550,6 +573,11 @@ a:active .flech_g img {
 		width:33.33%;
 		float:left;
 	}
+	.bloc_s_menu {
+		padding:20px
+		width:100%;
+		float:left;
+	}
 	.contact .bloc_1 {
 		padding:40px 20px 10px;
 	}
@@ -584,18 +612,13 @@ a:active .flech_g img {
 	form {
 		z-index:10;
 		width:800px;
-		height:auto;
+		height:380px;
 		padding:0;
 		margin:50px auto;
 		border-radius:2px;
 		-webkit-animation:form 3s ease;
 		-moz-animation:form 3s ease;
 		box-shadow:0 0 16px rgba(0,0,0,.25);
-	}
-	form div{
-		width:378px;
-		margin:10px;
-		font-size:1em;
 	}
 	@-webkit-keyframes form {
 		0% {opacity:0;-webkit-transform:translate(0,-250px);}
@@ -664,7 +687,8 @@ a:active .flech_g img {
 	.sous-foot {
 		font-size:.75em;
 	}
-	.sous-foot p {
+	.sous-foot p,
+	.sous-foot h1 {
 		width:960px;
 	}
 }
@@ -674,6 +698,7 @@ a:active .flech_g img {
 	.menu ul,
 	.bloc_0,
 	.sous-foot p,
+	.sous-foot h1,
 	footer p {
 		width:1332px;
 	}

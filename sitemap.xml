@@ -3,8 +3,7 @@
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>http://www.espaceetstyle.fr/</loc>
 </url>
@@ -12,10 +11,19 @@
   <loc>http://www.espaceetstyle.fr/qui-sommes-nous/</loc>
 </url>
 <url>
-  <loc>http://www.espaceetstyle.fr/notre-savoir-faire/</loc>
+  <loc>http://www.espaceetstyle.fr/votre-projet/nouveaux-locaux/</loc>
 </url>
 <url>
-  <loc>http://www.espaceetstyle.fr/votre-projet/</loc>
+  <loc>http://www.espaceetstyle.fr/votre-projet/point-de-vente/</loc>
+</url>
+<url>
+  <loc>http://www.espaceetstyle.fr/votre-projet/charte-graphite/</loc>
+</url>
+<url>
+  <loc>http://www.espaceetstyle.fr/votre-projet/espace-de-vente/</loc>
+</url>
+<url>
+  <loc>http://www.espaceetstyle.fr/notre-demarche/</loc>
 </url>
 <url>
   <loc>http://www.espaceetstyle.fr/nos-realisations/</loc>
@@ -31,9 +39,6 @@
 </url>
 <url>
   <loc>http://www.espaceetstyle.fr/nos-realisations/maxisec-entrepots.php</loc>
-</url>
-<url>
-  <loc>http://www.espaceetstyle.fr/nos-realisations/index.php</loc>
 </url>
 <url>
   <loc>http://www.espaceetstyle.fr/nos-realisations/franchise-nicotech.php</loc>

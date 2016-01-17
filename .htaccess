@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^espaceetstyle.fr$
+RewriteRule ^(.*) http://www.espaceetstyle.fr/$1 [QSA,R=301,L]
+
+ErrorDocument 401 /ele/404.php
+ErrorDocument 403 /ele/404.php
+ErrorDocument 404 /ele/404.php

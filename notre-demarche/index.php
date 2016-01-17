@@ -2,7 +2,7 @@
 $menu = 'notre-demarche';
 include('../ele/doc.php');
 ?>
-		<title>Agencer sa boutique - Décorer son magasin | Espace et Style</title>
+		<title>Décorateur et architecte boutique et magasin | Espace et Style</title>
 		<meta name="description" content="Étude de faisabilité de votre projet, sa conception et les travaux clés en mains.">
 	<?php include('../ele/head_menu.php'); ?>
 			<div class="car">
@@ -10,6 +10,7 @@ include('../ele/doc.php');
 			</div>
 			<div class="bloc_100">
 				<div class="bloc_0">
+					<h1>Agencer et décorer votre boutique</h1>
 					<div class="bloc_1">
 						<h2>1. Étude de faisabilité</h2>
 						<p>Un de nos chefs de projets étudie avec vous l’ensemble de vos besoins afin de définir les axes principaux de votre projet. Cette première étude permet de bien comprendre vos attentes en terme d’aménagement et d’en vérifier la faisabilité technique.</p>
