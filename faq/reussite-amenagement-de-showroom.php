@@ -2,12 +2,16 @@
 $menu = 'faq';
 include('../ele/doc.php');
 ?>
-		<title>Agencement intérieur magasin - Espace et Style</title>
-		<meta name="description" content="Entourés d’une équipe de cinq designers d’espace spécialisés dans l’agencement, nous vous accompagnons pour tous vos projets.">
+		<title>QUESTION - Espace et Style</title>
+		<meta name="description" content="PREMIERE_PHRASE">
 		<?php include('../ele/head_menu.php'); ?>
 		<div class="bloc_100 bloc_faq">
 			<div class="bloc_0">
         <?php include_once 'menu_faq.php'; ?>
+        <div class="bloc_s_menu">
+        <h1>QUESTION</h1>
+        <p>TEXTE</p>
+      </div>
 			</div>
 		</div>
 	</div>

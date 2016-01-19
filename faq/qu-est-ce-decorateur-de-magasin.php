@@ -2,8 +2,8 @@
 $menu = 'faq';
 include('../ele/doc.php');
 ?>
-		<title>Agencement intérieur magasin - Espace et Style</title>
-		<meta name="description" content="Entourés d’une équipe de cinq designers d’espace spécialisés dans l’agencement, nous vous accompagnons pour tous vos projets.">
+		<title>Qu’est-ce qu’un décorateur de magasin ? - Espace et Style</title>
+		<meta name="description" content="Un décorateur de magasin, ou décorateur de boutique, est avant tout un partenaire qui vous accompagne pour la mise en valeur de votre espace commercial.">
 		<?php include('../ele/head_menu.php'); ?>
 		<div class="bloc_100 bloc_faq">
 			<div class="bloc_0">
