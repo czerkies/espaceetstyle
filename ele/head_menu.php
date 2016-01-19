@@ -27,8 +27,6 @@
 					<li><a <?php if(isset($s_menu) && $s_menu === 'point-de-vente') {echo ' class="ac"';} ?> href="<?= RACINE; ?>votre-projet/point-de-vente/">Agrandissement de votre point de vente</a></li>
 					<li><a <?php if(isset($s_menu) && $s_menu === 'charte-graphite') {echo ' class="ac"';} ?> href="<?= RACINE; ?>votre-projet/charte-graphite/">Évolution de votre charte graphite</a></li>
 					<li><a <?php if(isset($s_menu) && $s_menu === 'espace-de-vente') {echo ' class="ac"';} ?> href="<?= RACINE; ?>votre-projet/espace-de-vente/">Moderniser votre espace de vente</a></li>
-					<li><a <?php if(isset($s_menu) && $s_menu === 'agencement-de-magasin') {echo ' class="ac"';} ?> href="<?= RACINE; ?>votre-projet/agencement-de-magasin/">Agencement de magasin</a></li>
-					<li><a <?php if(isset($s_menu) && $s_menu === 'renovation-de-magasin') {echo ' class="ac"';} ?> href="<?= RACINE; ?>votre-projet/renovation-de-magasin/">Rénovation de magasin</a></li>
 				</ul>
 				</li>
 				<li<?php if($menu === 'notre-demarche') {echo ' class="ac"';} ?>><a href="<?= RACINE; ?>notre-demarche/">Notre démarche</a></li>
