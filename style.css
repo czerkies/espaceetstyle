@@ -510,7 +510,8 @@ a:active .flech_g img {
 	float:left;
 }
 .menu_votreprojet li a:hover,
-.menu_faq li a:hover{
+.menu_faq li a:hover,
+.menu_faq li .active{
 	text-shadow:0 0 2px #22778e;
 }
 .bloc_100.bloc_faq{

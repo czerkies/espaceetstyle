@@ -1,5 +1,6 @@
 <?php
 $menu = 'faq';
+$menu_faq = 2;
 include('../ele/doc.php');
 ?>
 		<title>Pourquoi faire appel à un architecte de magasin ? - Espace et Style</title>
@@ -8,7 +9,7 @@ include('../ele/doc.php');
 		<div class="bloc_100 bloc_faq">
 			<div class="bloc_0">
         <?php include_once 'menu_faq.php'; ?>
-        <div class="bloc_s_menu">
+        <div id="faq" class="bloc_s_menu">
 	        <h2>Pourquoi faire appel à un architecte de magasin ?</h2>
 	        <p>Mener des travaux, quels qu’ils soient est un véritable métier.<br>
 					Tout d’abord, avant de lancer une phase de travaux de <strong>rénovation de magasin</strong> ou <strong>rénovation de boutique</strong>, il convient d’avoir bien défini les objectifs de ces travaux.<br> L’architecte de magasin est là pour vous aider à définir ces objectifs.<br>En effet, repenser l’agencement d’une boutique peut être pour <strong>mieux recevoir les clients</strong>, <strong>mieux présenter les produits</strong>, changer tout l’agencement car vous arrivez dans un nouvel espace…<br>
