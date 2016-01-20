@@ -56,6 +56,12 @@ body {
 .prin {
 	width:100%;
 }
+.bloc_100 p a {
+	color:#888;
+}
+.bloc_100 p a:hover {
+	color:#444;
+}
 .logo {
 	width:100%;
 	text-align:center;
@@ -637,7 +643,7 @@ a:active .flech_g img {
 		float:left;
 	}
 	.bloc_s_menu {
-		padding:20px
+		padding:20px;
 		width:100%;
 		float:left;
 	}

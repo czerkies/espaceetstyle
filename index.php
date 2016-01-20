@@ -13,7 +13,7 @@ include('ele/doc.php');
 						De même, l'inaction sape la vigueur de l'esprit."<br>
 						<span>Léonard De Vinci</span><p>
 					</div>
-					<a href="/qui-sommes-nous/">
+					<a href="<?= RACINE; ?>/qui-sommes-nous/">
 						<div class="accueil_center">
 							Agencer votre espace, le faire vivre pour révéler votre potentiel...
 						</div>
