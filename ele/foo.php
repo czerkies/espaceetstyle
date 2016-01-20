@@ -1,9 +1,10 @@
 			<footer>
-				<p>Groupe NISABA SAS au capital social de 8 000 € • 537 679 482 000 35 • <a target="_blank" href="https://www.google.fr/maps/place/36+Rue+du+Faubourg+Valmorin,+28210+Nogent-le-Roi/@48.6511556,1.5253007,440m/data=!3m1!1e3!4m2!3m1!1s0x47e40314802bed59:0x1deca07c1ed51afc!6m1!1e1">36 rue du Faubourg Valmorin 28 210 NOGENT LE ROI</a> • <a href="tel:0175920943">01 75 92 09 43</a> • <a href="mailto:contact@espaceetstyle.fr">contact@espaceetstyle.fr</a></p>
-				<!-- À propos du site : espaceetstyle.fr Version 2.0.1 - Intégré et développé par Roman Czerkies : romanczerkies.fr  -->
+				<p>
+					<a href="http://www.groupe-nisaba.fr/">Groupe NISABA SAS</a> au capital social de 8 000 € • 537 679 482 000 35 • <a target="_blank" href="https://www.google.fr/maps/place/36+Rue+du+Faubourg+Valmorin,+28210+Nogent-le-Roi/@48.6511556,1.5253007,440m/data=!3m1!1e3!4m2!3m1!1s0x47e40314802bed59:0x1deca07c1ed51afc!6m1!1e1">36 rue du Faubourg Valmorin 28 210 NOGENT LE ROI</a> • <a href="tel:0175920943">01 75 92 09 43</a> • <a href="mailto:contact@espaceetstyle.fr">contact@espaceetstyle.fr</a>
+				</p>
+				<!-- À propos du site : espaceetstyle.fr Version 3.0.0 - Intégré et développé par Roman Czerkies : romanczerkies.fr  -->
 			</footer>
-			<?php if($menu === 'accueil'){
-				?>
+			<?php if($menu === 'accueil'){ ?>
 					<div class="sous-foot">
 						<h1>Agencement d'espace : aménagement boutique et magasin, Bienvenue chez Espace et Style</h1>
 						<p><strong>Agence de design de magasin</strong>, Espace Et Style vous accompagne dans tous vos <strong>projets de rénovation</strong>, décoration ou agencement.<br>
