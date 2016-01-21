@@ -16,7 +16,7 @@ if($_POST){
         $msg .= '<label for="mail">Veuillez inscrire un <b>E-mail</b>.</label><br>';
       }
       if(empty($_POST['message']) || strlen($_POST['message']) <= 2){
-        $msg .= '<label for="messag">Veuillez saisir un <b>Message</b>.</label><br>';
+        $msg .= '<label for="message">Veuillez saisir un <b>Message</b>.</label><br>';
       }
 
       if(empty($msg)){
@@ -28,8 +28,7 @@ if($_POST){
 				$mail = $_POST['mail'];
 				$message = $_POST['message'];
 
-				//$mail_to = "contact@espaceetstyle.fr,{$mail}";
-				$mail_to = 'test@test.com';
+				$mail_to = "contact@espaceetstyle.fr,{$mail}";
 
 				$objet = "Espace et Style : Demande de devis ou renseignements.";
 

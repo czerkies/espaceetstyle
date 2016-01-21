@@ -11,7 +11,7 @@ include('../ele/doc.php');
 					<input type="text" name="nom" id="nom" placeholder="Nom" title="Nom" value="<?php if(isset($_POST['nom'])) echo $_POST['nom']; ?>" required>
 					<input type="text" name="prenom" placeholder="Prénom" title="Prénom" value="<?php if(isset($_POST['prenom'])) echo $_POST['prenom']; ?>">
 					<input type="text" name="societe" placeholder="Société" title="Société" value="<?php if(isset($_POST['societe'])) echo $_POST['societe']; ?>">
-					<input type="tel" name="tel" placeholder="Téléphone" title="Téléphone" value="<?php if(isset($_POST['telephone'])) echo $_POST['telephone']; ?>">
+					<input type="tel" name="tel" placeholder="Téléphone" title="Téléphone" value="<?php if(isset($_POST['tel'])) echo $_POST['tel']; ?>">
 					<input type="email" name="mail" id="mail" placeholder="Mail" title="Mail" required value="<?php if(isset($_POST['mail'])) echo $_POST['mail']; ?>">
 					<textarea type="text" name="message" id="message" placeholder="Descriptif de vos besoins" title="Descriptif de vos besoins" required><?php if(isset($_POST['message'])) echo $_POST['message']; ?></textarea>
 					<input class="rbt" type="text" name="rbt" value="<?php if(isset($_POST['rbt'])) echo $_POST['rbt']; ?>">

@@ -377,6 +377,9 @@ input[type="submit"]:hover {
 input[type="submit"]:active {
 	color:#888;
 }
+.formu.car label{
+	cursor:pointer;
+}
 .rea {
 	position:relative;
 	float:left;
