@@ -1,4 +1,4 @@
-<?php 
+<?php
 $menu = 'nosrealisations';
 include('../ele/doc.php');
 ?>
@@ -7,7 +7,7 @@ include('../ele/doc.php');
 	<?php include('../ele/head_menu.php'); ?>
 				<div class="rea">
 					<div class="rea_img">
-						<img class="rea_img_dim" src="img/Fashion_point.jpg" alt="Fashion Point - Espace et Style">
+						<img class="rea_img_dim" src="img/Fashion_point.jpg" alt="Rénovation de magasin - Décoration de boutique - Fashion Point - Espace et Style">
 					<a href="index.php">
 						<div class="flech_g">
 							<img src="flech_g.png">

@@ -10,7 +10,7 @@ include('../ele/doc.php');
 			<div class="bloc_0">
         <?php include_once 'menu_faq.php'; ?>
         <div id="faq" class="bloc_s_menu">
-	        <h2>Qu’est-ce qu’un décorateur de magasin ?</h2>
+	        <h1>Qu’est-ce qu’un décorateur de magasin ?</h1>
 	        <p>Un décorateur de magasin ou décorateur de boutique, est avant tout <strong>un partenaire qui vous accompagne</strong> pour la mise en valeur de votre espace commercial. Véritable maître d’œuvre, le décorateur de magasin ou de boutique se substitue à vous pour mener l’ensemble des travaux de rénovation du magasin,  ou les travaux de décoration pour rajeunir l’image de la boutique par exemple.<br>
 	        En tant que décorateur de magasin, nous intervenons surtout sur une seconde phase de travaux, qui vise à apporter les éléments de mobilier et de décor qui répondront à un besoin de présentation de produits, de mise en avant de vos couleurs, de répartition de l’espace pour <strong>bien accueillir vos clients.</strong><br>
 	        Le décorateur de magasin pose donc comme base de votre collaboration un concept de magasin, que vous optimisez ensemble, avant de lancer la phase de travaux.<br>

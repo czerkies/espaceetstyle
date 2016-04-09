@@ -3,7 +3,7 @@ $menu = 'votreprojet';
 $s_menu = 'renovation-de-magasin';
 include('../../ele/doc.php');
 ?>
-		<title>Agencement de magasin - Décorateur boutique | Espace et Style</title>
+		<title>Rénovation de magasin - Espace Et Style</title>
 		<meta name="description" content="Étude de faisabilité de votre projet, sa conception et les travaux clés en mains.">
 	<?php include('../../ele/head_menu.php'); ?>
 			<div class="car">

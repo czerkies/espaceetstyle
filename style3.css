@@ -27,16 +27,19 @@ p {
 }
 .menu,
 h1,
-h2 {
+h2,
+.titre__faq {
 	font-family:'exp',arial;
 	font-weight:100;
 	color:#22778e;
 	margin:0;
 }
-h1 {
+h1,
+.titre__faq {
 	font-size:1.25em;
 }
-.bloc_0 h1{
+.bloc_0 h1,
+.bloc_0 .titre__faq{
 	padding:20px;
 }
 .rea_descriptions h1{
@@ -496,8 +499,11 @@ a:active .flech_g img {
 .menu_votreprojet{
 	padding:4%;
 }
+.menu_votreprojet h2{
+	padding:0 20px;
+}
 .menu_faq{
-	padding:20px;
+	padding:0;
 }
 .menu_votreprojet ul{
 	padding:0;
@@ -513,7 +519,7 @@ a:active .flech_g img {
 }
 .menu_votreprojet a,
 .menu_faq a{
-	padding:1% 2%;
+	padding:1% 20px;
 	line-height:2em;
 	width:100%;
 	float:left;
@@ -646,9 +652,9 @@ a:active .flech_g img {
 		float:left;
 	}
 	.bloc_s_menu {
-		padding:20px;
 		width:100%;
 		float:left;
+		margin:50px 0 0;
 	}
 	.contact .bloc_1 {
 		padding:40px 20px 10px;

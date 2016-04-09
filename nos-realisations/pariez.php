@@ -1,4 +1,4 @@
-<?php 
+<?php
 $menu = 'nosrealisations';
 include('../ele/doc.php');
 ?>
@@ -6,7 +6,7 @@ include('../ele/doc.php');
 	<?php include('../ele/head_menu.php'); ?>
 				<div class="rea" id="rea">
 					<div class="rea_img">
-						<img src="Vincennes_Parier.jpg">
+						<img src="Vincennes_Pariez.jpg" alt="Rénovation de magasin - Décoration de boutique - Vincennes Pariez - Espace et Style">
 					<a href="index.php#rea">
 						<div class="flech_g">
 							<img src="flech_g.png">

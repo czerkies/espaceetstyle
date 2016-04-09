@@ -1,7 +1,11 @@
 <?php
 
 // Racine site
-define('RACINE', '/espaceetstyle/');
+if($_SERVER['SERVER_NAME'] == 'localhost'){
+	define('RACINE', '/espaceetstyle/');
+} else {
+	define('RACINE', '/');
+}
 
 //Connexion SQL
 ?>
@@ -9,4 +13,4 @@ define('RACINE', '/espaceetstyle/');
 	<html lang="fr">
 		<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="<?= RACINE; ?>style.css">
+		<link rel="stylesheet" type="text/css" href="<?= RACINE; ?>style3.css">

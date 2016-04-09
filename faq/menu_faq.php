@@ -1,4 +1,4 @@
-<h1>FAQ - Espace et style</h1>
+<p class="titre__faq">FAQ - Espace et style</p>
 <ul class="menu_faq">
   <li>
     <a <?php if(isset($menu_faq) && $menu_faq === 1) echo 'class="active"'; ?> href="qu-est-ce-decorateur-de-magasin.php#faq">Qu’est-ce qu’un décorateur de magasin ?</a>

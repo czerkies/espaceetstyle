@@ -7,7 +7,7 @@ include('../ele/doc.php');
 	<?php include('../ele/head_menu.php'); ?>
 				<div class="rea">
 					<div class="rea_img">
-						<img class="rea_img_dim" src="img/Cartridge_World_Boutique.jpg" alt="Boutique Cartridge World">
+						<img class="rea_img_dim" src="img/Cartridge_World_Boutique.jpg" alt="Rénovation de magasin - Décoration de boutique - Boutique Cartridge World">
 					<a href="vincennes-parier.php">
 						<div class="flech_g">
 							<img src="flech_g.png">
