@@ -18,7 +18,7 @@ a {
 	transition:color 250ms ease, background 250ms ease, text-shadow 250ms ease;
 	color:inherit;
 }
-.clear{
+.clear {
 	clear:both;
 	height:1px;
 }
@@ -39,10 +39,10 @@ h1,
 	font-size:1.25em;
 }
 .bloc_0 h1,
-.bloc_0 .titre__faq{
+.bloc_0 .titre__faq {
 	padding:20px;
 }
-.rea_descriptions h1{
+.rea_descriptions h1 {
 	padding:10px;
 }
 h2 {
@@ -66,6 +66,7 @@ body {
 	color:#444;
 }
 .logo {
+	display: inline-block;
 	width:100%;
 	text-align:center;
 }
@@ -76,21 +77,36 @@ body {
 	height:auto;
 }
 .coor {
-	display:none;
-	text-align:center;
-	font-family:'cdr', arial;
-	font-size:1.75em;
-	color:#888;
-	margin:5px 0;
+	display: inline-block;
+	width: 100%;
+	margin: 5px auto;
+	text-align: center;
+	font-family: 'cdr', arial;
+	font-size: .85em;
+	color: #888;
+}
+.coor_align {
+	width: 100%;
+	margin: auto;
+}
+.coor a {
+	display: block;
+	padding: 1em;
+	background: #22778e;
+	border-radius: 2px;
+	width: 275px;
+	float: left;
+	margin: 1em;
+	letter-spacing: 1px;
 }
 .coor a:hover {
-	color:#000;
+	color: #000;
 }
 .menu {
-	width:100%;
-	height:auto;
-	float:left;
-	background:#22778e;
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #22778e;
 }
 .menu ul {
 	width:auto;
@@ -537,7 +553,7 @@ a:active .flech_g img {
 }
 
 /* Responsive design */
-@media screen and (min-device-width: 600px) {
+@media screen and (min-width: 600px) {
 	.logo {
 		width:100%;
 		min-width:980px;
@@ -552,16 +568,18 @@ a:active .flech_g img {
 		margin:0 auto;
 	}
 	.coor {
-		display:block;
-		width:980px;
-		height:1.25em;
-		margin:5px auto;
-		font-size:.75em;
+		/*display: block;*/
+		/*height: 1.25em;*/
+		margin: 5px auto;
+		font-size: .75em;
 	}
-	.coor span {
+	.coor_align {
+		width: 610px;
+	}
+	/*.coor span {
 		float:right;
 		margin:0 4em 0;
-	}
+	}*/
 	.menu {
 		width:100%;
 		min-width:980px;
@@ -585,7 +603,7 @@ a:active .flech_g img {
 		border-top:none;
 	}
 	.menu li ul li:last-child a{
-		border-radius:0 0 4px 4px;
+		border-radius:0 0 2px 2px;
 	}
 	.menu li ul {
 		display:none;
@@ -595,7 +613,7 @@ a:active .flech_g img {
 		width:530px;
 		height:auto;
 		margin:50px 0 0;
-		border-radius:0 0 4px 4px;
+		border-radius:0 0 2px 2px;
 	}
 	.prin {
 		float:left;
@@ -693,7 +711,7 @@ a:active .flech_g img {
 		height:auto;
 		padding:0;
 		margin:50px auto;
-		border-radius:2px;
+		border-radius: 2px;
 		-webkit-animation:form 3s ease;
 		-moz-animation:form 3s ease;
 		box-shadow:0 0 16px rgba(0,0,0,.25);
@@ -793,7 +811,7 @@ a:active .flech_g img {
 }
 
 @media only screen and (min-width:1440px) {
-	.coor,
+	/*.coor_align,*/
 	.menu ul,
 	.bloc_0,
 	.sous-foot p,
@@ -804,9 +822,9 @@ a:active .flech_g img {
 	.coor {
 		font-size:.9em;
 	}
-	.coor span {
+	/*.coor span {
 		margin:0 4.2em 0 0;
-	}
+	}*/
 	.menu ul li a {
 		font-size:.85em;
 		width:auto;

@@ -13,9 +13,10 @@
 		</div>
 		</a>
 		<div class="coor">
-			<span>
-				<a href="mailto:contact@espaceetstyle.fr">contact@espaceetstyle.fr</a> • <a href="tel:0175920943">+331 75 92 09 43</a>
-			</span>
+			<div class="coor_align">
+				<a href="mailto:contact@espaceetstyle.fr">contact@espaceetstyle.fr</a>
+				<a href="tel:0175920943">+331 75 92 09 43</a>
+			</div>
 		</div>
 		<nav class="menu">
 			<ul>
