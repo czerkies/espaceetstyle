@@ -1,7 +1,7 @@
 <?php
 
 // Racine site
-if($_SERVER['SERVER_NAME'] == 'localhost'){
+if($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == 'romanczerkies.fr'){
 	define('RACINE', '/espaceetstyle/');
 } else {
 	define('RACINE', '/');
