@@ -558,7 +558,7 @@ a:active .flech_g img {
 }
 
 /* Responsive design */
-@media screen and (min-width: 600px) {
+@media screen and (min-device-width: 600px) {
 	.logo {
 		width:100%;
 		min-width:980px;
