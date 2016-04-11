@@ -29,24 +29,24 @@ p {
 h1,
 h2,
 .titre__faq {
-	font-family:'exp',arial;
-	font-weight:100;
-	color:#22778e;
-	margin:0;
+	font-family: 'exp',arial;
+	font-weight: 100;
+	color: #22778e;
+	margin: 0;
 }
 h1,
 .titre__faq {
-	font-size:1.25em;
+	font-size: 1.25em;
 }
 .bloc_0 h1,
 .bloc_0 .titre__faq {
-	padding:20px;
+	padding: 20px;
 }
 .rea_descriptions h1 {
-	padding:10px;
+	padding: 10px;
 }
 h2 {
-	font-size:2.25em;
+	font-size: 2.25em;
 }
 body {
 	width:100%;
@@ -82,7 +82,6 @@ body {
 	margin: 5px auto;
 	text-align: center;
 	font-family: 'cdr', arial;
-	font-size: .85em;
 	color: #888;
 }
 .coor_align {
@@ -91,18 +90,18 @@ body {
 }
 .coor a {
 	display: block;
+	font-size: 2em;
 	padding: 1em;
-	background: #22778e;
-	color:#eee;
+	background: #cbcccb;
+	color: #fff;
 	border-radius: 2px;
-	width: 275px;
+	width: 90%;
 	float: left;
-	margin: 1em;
+	margin: 5%;
 	letter-spacing: 1px;
+	transition: box-shadow 250ms ease;
 }
 .coor a:hover {
-	color: #fff;
-	background: #cbcccb;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
 }
 .coor a:active {
@@ -127,14 +126,14 @@ body {
 }
 .menu ul li a {
 	background:#22778e;
-	width:100%;
-	margin:0;
-	padding:0;
-	line-height:75px;
-	font-size:2em;
-	color:#eee;
-	float:left;
-	border-top:1px solid #fff;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	line-height: 75px;
+	font-size: 2em;
+	color: #eee;
+	float: left;
+	border-top: 1px solid #fff;
 }
 .menu .ac a,
 .menu .ac{
@@ -574,18 +573,16 @@ a:active .flech_g img {
 		margin:0 auto;
 	}
 	.coor {
-		/*display: block;*/
-		/*height: 1.25em;*/
 		margin: 5px auto;
-		font-size: .75em;
+	}
+	.coor a {
+		font-size: 1em;
+		width: 265px;
+		margin: 1em;
 	}
 	.coor_align {
-		width: 610px;
+		width: 620px;
 	}
-	/*.coor span {
-		float:right;
-		margin:0 4em 0;
-	}*/
 	.menu {
 		width:100%;
 		min-width:980px;
@@ -605,8 +602,8 @@ a:active .flech_g img {
 		float:left;
 		margin:0;
 		line-height:50px;
-		font-size:.7em;
 		border-top:none;
+		font-size:.7em;
 	}
 	.menu li ul li:last-child a{
 		border-radius:0 0 2px 2px;
@@ -825,16 +822,14 @@ a:active .flech_g img {
 	footer p {
 		width:1332px;
 	}
-	.coor {
-		font-size:.9em;
-	}
-	/*.coor span {
-		margin:0 4.2em 0 0;
-	}*/
 	.menu ul li a {
-		font-size:.85em;
-		width:auto;
-		padding:0 2.6em;
+		width: auto;
+		padding: 0 2.6em;
+		font-size: .85em;
+	}
+	.coor a {
+		font-size: 1em;
+		width: 275px;
 	}
 	.car,
 	.formu {
