@@ -290,7 +290,7 @@ h2 {
 	color: #22778e;
 	line-height: 25px;
 	letter-spacing: 1px;
-	margin: 0 0 25px;
+	margin: 0;
 	float: left;
 }
 .accueil_center {
@@ -599,7 +599,7 @@ a:active .flech_g img {
 	.logo {
 		width: 100%;
 		min-width: 980px;
-		margin: 5px 0;
+		margin: 0;
 	}
 	.logo img {
 		width: 500px;
@@ -748,7 +748,7 @@ a:active .flech_g img {
 	.signature_acc {
 		font-size: 1.4em;
 		letter-spacing: 2px;
-		margin: 0 0 50px;
+		/*margin: 0 0 50px;*/
 	}
 	.formu img {
 		display: block;
@@ -761,7 +761,7 @@ a:active .flech_g img {
 		padding: 0;
 		margin: 50px auto;
 		border-radius: 2px;
-		animation: form 2s ease;
+		animation: form 2s ease-out;
 		box-shadow: 0 0 16px rgba(0, 0, 0, .25);
 	}
 	form div {
@@ -772,14 +772,14 @@ a:active .flech_g img {
 	@keyframes form {
 		0% {
 			opacity: 0;
-			transform: translate(0, -250px);
+			transform: scale(1.25);
 		}
 		25% {
 			opacity: 0;
 		}
 		100% {
 			opacity: 1;
-			transform: translate(0, 0, 0);
+			transform: scale(1);
 		}
 	}
 	input,
