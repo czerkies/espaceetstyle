@@ -81,6 +81,7 @@ h2 {
 }
 .coor_align {
 	width: 100%;
+	display: inline-block;
 }
 .coor a {
 	display: block;
@@ -197,7 +198,7 @@ h2 {
 	height: 105%;
   position: absolute;
   z-index: -100;
-	background: url(img/img_acc.jpg) no-repeat center center;
+	background: url(img/img_acc.png) no-repeat center center;
 	background-size: cover;
 	animation: boun_acc 20s ease-out;
 }
@@ -222,6 +223,33 @@ h2 {
 		opacity: 1;
 	}
 	100% {
+		transform: scale(1);
+	}
+}
+@keyframes boun_contact {
+	0% {
+		opacity: 0;
+		transform: scale(1.5);
+		filter: blur(0);
+	}
+	25% {
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1.025);
+		filter: blur(4px);
+	}
+}
+@keyframes form {
+	0% {
+		opacity: 0;
+		transform: scale(1.25);
+	}
+	30% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
 		transform: scale(1);
 	}
 }
@@ -272,7 +300,7 @@ h2 {
 	width: 100%;
 	font-family: 'cdr', arial;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.75em;
 	letter-spacing: 1px;
 	color: #22778e;
 	line-height: 3em;
@@ -285,13 +313,14 @@ h2 {
 	0%,
 	5% {
 		opacity: 0;
+		filter: blur(12px);
 		transform: scale(.92);
 	}
-	30% {
+	20% {
 		opacity: 1;
+		filter: blur(0);
 	}
 	100% {
-		opacity: 1;
 		transform: scale(1);
 	}
 }
@@ -352,7 +381,8 @@ form {
 	margin: 0;
 	background: rgba(203, 204, 203, .9);
 }
-form .rbt{
+form .rbt,
+form .hidden_label {
 	display: none;
 }
 form div{
@@ -392,7 +422,7 @@ input[type="submit"]:hover {
 input[type="submit"]:active {
 	color: #888;
 }
-.formu.car label{
+.formu.car label {
 	cursor: pointer;
 }
 .rea {
@@ -570,7 +600,7 @@ a:active .flech_g img {
 	}
 	.coor_align {
 		width: 620px;
-		margin: 0 auto;
+		margin: 5px auto;
 	}
 	.menu {
 		width: 100%;
@@ -697,6 +727,11 @@ a:active .flech_g img {
 		display: block;
 		z-index: -10;
 	}
+	.background_contact {
+		animation: boun_contact 8s ease !important;
+		filter: blur(6px);
+		transform: scale(1.025);
+	}
 	form {
 		z-index: 10;
 		width: 800px;
@@ -711,19 +746,6 @@ a:active .flech_g img {
 		width: 378px;
 		margin: 10px;
 		font-size: 1em;
-	}
-	@keyframes form {
-		0% {
-			opacity: 0;
-			transform: scale(1.25);
-		}
-		25% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-			transform: scale(1);
-		}
 	}
 	input,
 	textarea {

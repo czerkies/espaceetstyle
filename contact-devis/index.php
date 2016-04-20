@@ -8,11 +8,17 @@ include('../ele/doc.php');
 	<?php include('../ele/head_menu.php'); ?>
 			<div class="formu car">
 				<form method="post" action="">
+					<label class="hidden_label" for="nom">Nom</label>
 					<input type="text" name="nom" id="nom" placeholder="Nom" title="Nom" value="<?php if(isset($_POST['nom'])) echo $_POST['nom']; ?>" required>
-					<input type="text" name="prenom" placeholder="Prénom" title="Prénom" value="<?php if(isset($_POST['prenom'])) echo $_POST['prenom']; ?>">
-					<input type="text" name="societe" placeholder="Société" title="Société" value="<?php if(isset($_POST['societe'])) echo $_POST['societe']; ?>">
-					<input type="tel" name="tel" placeholder="Téléphone" title="Téléphone" value="<?php if(isset($_POST['tel'])) echo $_POST['tel']; ?>">
+					<label class="hidden_label" for="prenom">Prénom</label>
+					<input type="text" name="prenom" id="prenom" placeholder="Prénom" title="Prénom" value="<?php if(isset($_POST['prenom'])) echo $_POST['prenom']; ?>">
+					<label class="hidden_label" for="societe">Société</label>
+					<input type="text" name="societe" id="societe" placeholder="Société" title="Société" value="<?php if(isset($_POST['societe'])) echo $_POST['societe']; ?>">
+					<label class="hidden_label" for="tel">Téléphone</label>
+					<input type="tel" name="tel" id="tel" placeholder="Téléphone" title="Téléphone" value="<?php if(isset($_POST['tel'])) echo $_POST['tel']; ?>">
+					<label class="hidden_label" for="mail">Mail</label>
 					<input type="email" name="mail" id="mail" placeholder="Mail" title="Mail" required value="<?php if(isset($_POST['mail'])) echo $_POST['mail']; ?>">
+					<label class="hidden_label" for="message">Message</label>
 					<textarea type="text" name="message" id="message" placeholder="Descriptif de vos besoins" title="Descriptif de vos besoins" required><?php if(isset($_POST['message'])) echo $_POST['message']; ?></textarea>
 					<input class="rbt" type="text" name="rbt" value="<?php if(isset($_POST['rbt'])) echo $_POST['rbt']; ?>">
 					<input type="submit" value="Envoyer">
@@ -21,7 +27,7 @@ include('../ele/doc.php');
 					} ?>
 					<div class="clear"></div>
 				</form>
-				<img src="bureau.jpg" alt="Espace et Style - Contact Bureau">
+				<img class="background_contact" src="bureau.jpg" alt="Espace et Style - Contact Bureau">
 			</div>
 			<div class="bloc_0 contact">
 				<a href="tel:0175920943">
