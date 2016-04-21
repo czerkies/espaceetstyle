@@ -6,7 +6,7 @@ include('../ele/doc.php');
 		<meta name="description" content="Entourés d’une équipe de cinq designers d’espace spécialisés dans l’agencement, nous vous accompagnons pour tous vos projets.">
 		<?php include('../ele/head_menu.php'); ?>
 		<div class="car">
-			<img src="hall_accueil.jpg" alt="Espace et Style - Hall Accueil">
+			<img class="anim" src="hall_accueil.jpg" alt="Espace et Style - Hall Accueil">
 		</div>
 		<div class="bloc_100">
 			<div class="bloc_0">

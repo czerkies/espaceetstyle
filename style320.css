@@ -186,7 +186,7 @@ h2 {
 	position: relative;
 	float: left;
 }
-.car img {
+.car img.anim {
 	width: 102%;
 	height: auto;
 	animation: boun 8s ease;
@@ -202,6 +202,23 @@ h2 {
 	background-size: cover;
 	animation: boun_acc 20s ease-out;
 }
+.car_acc_back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	z-index: -200;
+}
+.car_acc_back img {
+	width: 90%;
+}
+/*.car_acc::after {
+	content: "test";
+	float: left;
+	width: 100%;
+	position: absolute;
+	z-index: -200;
+}*/
 @keyframes boun_acc {
 	0% {
 		opacity: 0;
@@ -231,6 +248,7 @@ h2 {
 		opacity: 0;
 		transform: scale(1.5);
 		filter: blur(0);
+		-webkit-filter: blur(0);
 	}
 	25% {
 		opacity: 1;
@@ -238,6 +256,7 @@ h2 {
 	100% {
 		transform: scale(1.025);
 		filter: blur(4px);
+		-webkit-filter: blur(4px);
 	}
 }
 @keyframes form {
@@ -273,16 +292,17 @@ h2 {
 }
 .citation {
 	font-family: 'cdr', arial;
-	color: #444;
+	color: #fff;
 	font-size: 1.75em;
 	text-align: center;
 	padding: 10px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 1), 0 0 8px rgba(0, 0, 0, .8);
 }
 .citation span {
 	margin: 25px 0 0;
 	float: right;
 	font-size: 1em;
-	color: #888;
+	color: #fff;
 }
 .signature,
 .signature_acc {
@@ -306,7 +326,7 @@ h2 {
 	line-height: 3em;
 	float: left;
 	margin: 25px 0;
-	text-shadow: 0 0 2px rgba(0, 0, 0, .4);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 0 4px rgba(0, 0, 0, 1);
 	animation: center 20s ease-in-out;
 }
 @keyframes center{
@@ -314,11 +334,13 @@ h2 {
 	5% {
 		opacity: 0;
 		filter: blur(12px);
+		-webkit-filter: blur(12px);
 		transform: scale(.92);
 	}
 	20% {
 		opacity: 1;
 		filter: blur(0);
+		-webkit-filter: blur(0);
 	}
 	100% {
 		transform: scale(1);
@@ -708,10 +730,10 @@ a:active .flech_g img {
 		line-height: 1.5em;
 	}
 	.citation {
-		font-size: 1em;
+		font-size: 1.2em;
 		padding: 0;
-		line-height: 1.75em;
-		width: 500px;
+		line-height: 1.5em;
+		width: 600px;
 		margin: 25px auto;
 		float: left;
 	}
@@ -729,7 +751,8 @@ a:active .flech_g img {
 	}
 	.background_contact {
 		animation: boun_contact 8s ease !important;
-		filter: blur(6px);
+		filter: blur(4px);
+		-webkit-filter: blur(4px);
 		transform: scale(1.025);
 	}
 	form {
