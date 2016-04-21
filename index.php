@@ -11,7 +11,7 @@ include('ele/doc.php');
 						<p>"Le fer se rouille, faute de s'en servir,<br>
 						l'eau stagnante perd de sa pureté et se glace par le froid.<br>
 						De même, l'inaction sape la vigueur de l'esprit."<br>
-						<span>Léonard De Vinci</span><p>
+						<span>Léonard De Vinci</span></p>
 					</div>
 					<a href="<?= RACINE; ?>/qui-sommes-nous/">
 						<div class="accueil_center">
@@ -19,7 +19,8 @@ include('ele/doc.php');
 						</div>
 					</a>
 				</div>
-			</div>
-			<div class="car_acc_back">
+				<div class="car_acc_back">
+					<img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
+				</div>
 			</div>
 <?php include('ele/foo.php'); ?>
