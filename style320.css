@@ -210,7 +210,9 @@ h2 {
 	z-index: -200;
 }
 .car_acc_back img {
-	width: 90%;
+	filter: brightness(.8);
+	-webkit-filter: brightness(.8);
+	width: 95%;
 }
 /*.car_acc::after {
 	content: "test";
@@ -292,21 +294,22 @@ h2 {
 }
 .citation {
 	font-family: 'cdr', arial;
-	color: #fff;
+	color: #000;
 	font-size: 1.75em;
 	text-align: center;
 	padding: 10px;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 1), 0 0 8px rgba(0, 0, 0, .8);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
 }
 .citation span {
 	margin: 25px 0 0;
 	float: right;
 	font-size: 1em;
-	color: #fff;
+	color: #222;
 }
 .signature,
 .signature_acc {
 	font-family: 'cdr', arial;
+	font-weight: 800;
 	width: 100%;
 	text-align: center;
 	font-size: 1.75em;
@@ -320,13 +323,13 @@ h2 {
 	width: 100%;
 	font-family: 'cdr', arial;
 	text-align: center;
-	font-size: 1.75em;
+	font-size: 2.25em;
 	letter-spacing: 1px;
 	color: #22778e;
 	line-height: 3em;
 	float: left;
 	margin: 25px 0;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 0 4px rgba(0, 0, 0, 1);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 0 8px rgba(255, 255, 255, .5);
 	animation: center 20s ease-in-out;
 }
 @keyframes center{
