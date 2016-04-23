@@ -206,6 +206,7 @@ h2 {
 	position: absolute;
 	top: 0;
 	left: 0;
+	width: 100%;
 	float: left;
 	z-index: -200;
 }
@@ -213,14 +214,30 @@ h2 {
 	filter: brightness(.8);
 	-webkit-filter: brightness(.8);
 	width: 95%;
-}
-/*.car_acc::after {
-	content: "test";
-	float: left;
-	width: 100%;
 	position: absolute;
-	z-index: -200;
-}*/
+}
+.car_acc_back img:nth-child(1) {
+	animation: def_acc_1 4s ease infinite;
+}
+.car_acc_back img:nth-child(2) {
+	animation: def_acc_2 4s ease infinite;
+}
+@keyframe def_acc_1 {
+	0%, 45% {
+		opacity: 1;
+	}
+	55%, 100% {
+		opacity: 0;
+	}
+}
+@keyframe def_acc_2 {
+	0%, 45% {
+		opacity: 0;
+	}
+	55%, 100% {
+		opacity: 1;
+	}
+}
 @keyframes boun_acc {
 	0% {
 		opacity: 0;

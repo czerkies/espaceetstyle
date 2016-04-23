@@ -21,6 +21,7 @@ include('ele/doc.php');
 				</div>
 				<div class="car_acc_back">
 					<img src="<?= RACINE; ?>/img/BUREAU-BOULOGNE.jpg" alt="Espace et style">
+					<img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
 				</div>
 			</div>
 <?php include('ele/foo.php'); ?>
