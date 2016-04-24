@@ -220,20 +220,20 @@ h2 {
 	position: absolute;
 }
 .car_acc_back img:nth-child(1) {
-	animation: def_acc_1 4s ease infinite;
+	animation: def_acc_1 8s ease infinite;
 }
 .car_acc_back img:nth-child(2) {
-	animation: def_acc_2 4s ease infinite;
+	animation: def_acc_2 8s ease infinite;
 }
-@keyframe def_acc_1 {
-	0%, 45% {
+@keyframes def_acc_1 {
+	5%, 45% {
 		opacity: 1;
 	}
-	55%, 100% {
+	0%, 55%, 100% {
 		opacity: 0;
 	}
 }
-@keyframe def_acc_2 {
+@keyframes def_acc_2 {
 	0%, 45% {
 		opacity: 0;
 	}
@@ -351,7 +351,7 @@ h2 {
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 0 8px rgba(255, 255, 255, .5);
 	animation: center 20s ease-in-out;
 }
-@keyframes center{
+@keyframes center {
 	0%,
 	5% {
 		opacity: 0;
@@ -380,7 +380,7 @@ h2 {
 .contact .bloc_1 p {
 	text-align: center;
 }
-.contact .bloc_1: hover p {
+.contact .bloc_1:hover p {
 	transition: color 250ms ease;
 	color: #444;
 }
@@ -401,7 +401,6 @@ h2 {
 	max-height: none;
 }
 footer {
-	/*float: left;*/
 	display: inline-block;
 	width: 100%;
 	height: auto;
@@ -787,7 +786,7 @@ a:active .flech_g img {
 	}
 	.background_contact {
 		width: 100%;
-		animation: boun_contact 8s ease !important;
+		animation: boun_contact 8s ease;
 		filter: blur(4px);
 		-webkit-filter: blur(4px);
 		transform: scale(1.025);
