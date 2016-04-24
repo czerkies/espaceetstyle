@@ -770,6 +770,7 @@ a:active .flech_g img {
 		z-index: -10;
 	}
 	.background_contact {
+		width: 100%;
 		animation: boun_contact 8s ease !important;
 		filter: blur(4px);
 		-webkit-filter: blur(4px);
