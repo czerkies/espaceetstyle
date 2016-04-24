@@ -49,6 +49,9 @@ h1,
 .rea_descriptions h1 {
 	padding: 10px;
 }
+.bloc_0 h2 {
+	margin: 0 0 10px;
+}
 h2 {
 	font-size: 2.25em;
 }
@@ -326,7 +329,6 @@ h2 {
 .signature,
 .signature_acc {
 	font-family: 'cdr', arial;
-	font-weight: 800;
 	width: 100%;
 	text-align: center;
 	font-size: 1.75em;
@@ -399,7 +401,8 @@ h2 {
 	max-height: none;
 }
 footer {
-	float: left;
+	/*float: left;*/
+	display: inline-block;
 	width: 100%;
 	height: auto;
 	font-family: 'cdr', arial;
@@ -568,9 +571,6 @@ a:active .flech_g img {
 .bloc_s_menu p {
 	padding: 20px;
 }
-.car.votreprojet img {
-	animation: none;
-}
 .menu_votreprojet,
 .menu_faq {
 	background: #fff;
@@ -614,6 +614,14 @@ a:active .flech_g img {
 	animation: none;
 	float: left;
 }
+.votreprojet img {
+	vertical-align: middle;
+	width: 102%;
+}
+.img_votreprojet {
+	min-height: 250px;
+	overflow: hidden;
+}
 
 /* Responsive design */
 @media screen and (min-device-width: 600px) {
@@ -622,6 +630,13 @@ a:active .flech_g img {
 		width: 100%;
 		min-width: 980px;
 		margin: 0;
+	}
+	.logo a {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.logo_wait {
+		height: 163px;
 	}
 	.logo img {
 		width: 500px;
@@ -642,7 +657,7 @@ a:active .flech_g img {
 	}
 	.coor_align {
 		width: 620px;
-		margin: 5px auto;
+		margin: 0 auto;
 	}
 	.menu {
 		width: 100%;
@@ -693,6 +708,7 @@ a:active .flech_g img {
 	}
 	.car {
 		height: auto;
+		min-height: 400px;
 		width: 100%;
 		min-width: 980px;
 	}
@@ -703,7 +719,7 @@ a:active .flech_g img {
 	.bloc_100 {
 		float: left;
 		width: 100%;
-		padding: 50px 0;
+		padding: 25px 0;
 		background: rgba(255, 255, 255, .75);
 		animation: band 3s ease-out;
 	}
@@ -737,7 +753,7 @@ a:active .flech_g img {
 	.bloc_s_menu {
 		width: 100%;
 		float: left;
-		margin: 50px 0 0;
+		margin: 25px 0;
 	}
 	.contact .bloc_1 {
 		padding: 40px 20px 10px;
@@ -852,8 +868,11 @@ a:active .flech_g img {
 	.sous-foot h1 {
 		width: 960px;
 	}
-	.car.votreprojet img,
-	.car.votreprojet .menu_votreprojet {
+	.votreprojet {
+		min-width: 980px;
+	}
+	.votreprojet .menu_votreprojet,
+	.votreprojet .img_votreprojet {
 		float: left;
 		width: 50%;
 		height: auto;
@@ -894,6 +913,9 @@ a:active .flech_g img {
 		height: 600px;
 		max-height: 600px;
 	}
+	.car {
+		min-height: 590px;
+	}
 	@keyframes band {
 		0% {
 			opacity: 0;
@@ -919,8 +941,8 @@ a:active .flech_g img {
 		width: 1332px;
 	}
 	.rea_descriptions div {
-	width: 1332px;
-	min-width: 1332px;
+		width: 1332px;
+		min-width: 1332px;
 	}
 	.car_acc {
 		height: 800px;
@@ -932,10 +954,10 @@ a:active .flech_g img {
 	.sous-foot {
 		font-size: 1em;
 	}
-	.car.votreprojet {
-		height: auto;
-	}
 	.menu_votreprojet li{
 		font-size: 1em;
+	}
+	.coor_align {
+		margin: 5px auto;
 	}
 }
