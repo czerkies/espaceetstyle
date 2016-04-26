@@ -144,6 +144,8 @@ h2 {
 	/*text-shadow:0 0 8px #fff;*/
 }
 .menu li ul {
+	background: rgba(34, 119, 142, .9);
+	-webkit-backdrop-filter: blur(4px);
 	display: none;
 	position: absolute;
 	z-index: 4000;
@@ -156,24 +158,21 @@ h2 {
 	width: 100%;
 }
 .menu li ul li a {
-	background: rgba(34, 119, 142, .95);
+	background: none;
 	width: 100%;
 	letter-spacing: 1px;
 	font-size: .8em;
 }
-.menu li ul li a:hover {
-	background: rgba(203, 204, 203, .95);
-}
+.menu li ul li a:hover,
 .menu li ul li .ac {
-	background: rgba(203, 204, 203, .95);
+	background: rgba(203, 204, 203, .9);
 }
 .menu li:hover ul {
 	display: block;
 	animation: menu_trans 500ms ease;
 }
 @keyframes menu_trans {
-	0%,
-	25% {
+	0%, 25% {
 		opacity: 0;
 		transform: translateY(-5px);
 	}
@@ -351,7 +350,7 @@ h2 {
 	0% {
 		opacity: 0;
 		transform: scale(1.5);
-		filter: blur(0);
+		/*filter: blur(0);*/
 		-webkit-filter: blur(0);
 	}
 	25% {
@@ -359,7 +358,7 @@ h2 {
 	}
 	100% {
 		transform: scale(1.025);
-		filter: blur(4px);
+		/*filter: blur(4px);*/
 		-webkit-filter: blur(4px);
 	}
 }
@@ -434,13 +433,14 @@ h2 {
 	float: left;
 	margin: 25px 0;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 0 8px rgba(255, 255, 255, .5);
-	animation: center 20s ease-in-out;
+	-webkit-animation: center 20s ease-in-out;
+	/* Animation "center" uniquement disponible sous moteur Webkit : Surcharge d'animations pour IE ou Firefox */
 }
 @keyframes center {
 	0%, 5% {
 		opacity: 0;
-		filter: blur(12px);
-		-webkit-filter: blur(12px);
+		filter: blur(4px);
+		-webkit-filter: blur(4px);
 		transform: scale(.92);
 	}
 	20% {
@@ -578,7 +578,8 @@ input[type="submit"]:active {
 }
 .rea_descriptions {
 	width: 100%;
-	background: linear-gradient(rgba(203, 204, 203, .9) 0, rgba(203,204,203,1)100%);
+	background: linear-gradient(rgba(203, 204, 203, .75) 0, rgba(203,204,203,1)100%);
+	-webkit-backdrop-filter: blur(4px);
 	bottom: 0;
 	float: left;
 }
@@ -613,7 +614,8 @@ a .flech_d img,
 a .flech_g img {
 	transition: all 250ms ease;
 	width: 50px;
-	background: rgba(255, 255, 255, .8);
+	background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(4px);
 	box-shadow: 0 0 16px rgba(0, 0, 0, .25);
 	border-radius: 2px;
 	padding: 5px;
@@ -804,17 +806,19 @@ a:active .flech_g img {
 		width: 100%;
 		padding: 25px 0;
 		background: rgba(255, 255, 255, .75);
-		animation: band 3s ease-out;
+		animation: band 3s ease-in-out;
 	}
 	@keyframes band {
 		0% {
 			opacity: 0;
 			transform: translateY(-500px);
+			-webkit-backdrop-filter: blur(4px);
 		}
 		25% {
 			opacity: 1;
 		}
 		100% {
+			-webkit-backdrop-filter: blur(0);
 			transform: translateY(0);
 		}
 	}
@@ -1003,12 +1007,14 @@ a:active .flech_g img {
 		0% {
 			opacity: 0;
 			transform: translateY(-600px);
+			-webkit-backdrop-filter: blur(4px);
 		}
 		25% {
 			opacity: 1;
 		}
 		100% {
 			transform: translateY(0);
+			-webkit-backdrop-filter: blur(4px);
 		}
 	}
 	form {
