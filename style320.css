@@ -216,9 +216,9 @@ h2 {
 	z-index: -200;
 }
 .car_acc_back img {
-	filter: brightness(.8);
-	-webkit-filter: brightness(.8);
-	width: 95%;
+	filter: brightness(1.125);
+	-webkit-filter: brightness(1.125);
+	width: 90%;
 	position: absolute;
 }
 .car_acc_back img:nth-child(1) {
@@ -250,7 +250,7 @@ h2 {
 }
 
 @keyframes def_acc_1 {
-	0%, 17%, 100% {
+	0%, 3%, 17%, 100% {
 		opacity: 0;
 	}
 	7%, 13% {
@@ -399,7 +399,7 @@ h2 {
 	font-size: 1.75em;
 	text-align: center;
 	padding: 10px;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 0 4px rgba(255, 255, 255, .9);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 0 4px rgba(255, 255, 255, 0.5);
 }
 .citation span {
 	margin: 25px 0 0;
@@ -425,6 +425,7 @@ h2 {
 	position: absolute;
 	top: 0;
 	font-family: 'cdr', arial;
+	font-weight: 800;
 	text-align: center;
 	font-size: 1.85em;
 	letter-spacing: 1px;
@@ -432,24 +433,23 @@ h2 {
 	line-height: 3em;
 	float: left;
 	margin: 25px 0;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 0 8px rgba(255, 255, 255, .5);
-	-webkit-animation: center 20s ease-in-out;
-	/* Animation "center" uniquement disponible sous moteur Webkit : Surcharge d'animations pour IE ou Firefox */
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .75), 0 0 8px rgba(255, 255, 255, 1);
+	animation: center 20s ease-in-out;
 }
 @keyframes center {
-	0%, 5% {
+	0%, 7% {
 		opacity: 0;
-		filter: blur(4px);
+		/*filter: blur(4px);*/
 		-webkit-filter: blur(4px);
-		transform: scale(.92);
+		-webkit-transform: scale(.92);
 	}
 	20% {
 		opacity: 1;
-		filter: blur(0);
+		/*filter: blur(0);*/
 		-webkit-filter: blur(0);
 	}
 	100% {
-		transform: scale(1);
+		-webkit-transform: scale(1);
 	}
 }
 .contact {

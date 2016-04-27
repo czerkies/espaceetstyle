@@ -11,24 +11,31 @@ include('ele/doc.php');
 						Agencer votre espace, le faire vivre pour révéler votre potentiel...
 					</div>
 				</a>
-				<div class="bloc_0">
 					<div class="citation">
 						<p>"Le fer se rouille, faute de s'en servir,<br>
 						 l'eau stagnante perd de sa pureté et se glace par le froid.<br>
 						 De même, l'inaction sape la vigueur de l'esprit."<br>
 						<span>Léonard De Vinci</span></p>
 					</div>
-				</div>
 				<div class="car_acc_back">
-					<!-- 1 --><img src="<?= RACINE; ?>/img/BUREAU-BOULOGNE.jpg" alt="Espace et style">
-					<!-- 2 --><img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
-					<!-- 3 --><img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
-					<!-- 4 --><img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
-					<!-- 5 --><img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
-					<!-- 6 --><img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
-					<!-- 7 --><img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
-					<!-- 8 --><img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
-					<!-- 9 --><img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
+					<!-- 1 -->
+					<img src="<?= RACINE; ?>/img/BUREAU-BOULOGNE.jpg" alt="Espace et style">
+					<!-- 2 -->
+					<img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
+					<!-- 3 -->
+					<img src="<?= RACINE; ?>/img/BUREAU-BOULOGNE.jpg" alt="Espace et style">
+					<!-- 4 -->
+					<img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
+					<!-- 5 -->
+					<img src="<?= RACINE; ?>/img/BUREAU-BOULOGNE.jpg" alt="Espace et style">
+					<!-- 6 -->
+					<img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
+					<!-- 7 -->
+					<img src="<?= RACINE; ?>/img/BUREAU-BOULOGNE.jpg" alt="Espace et style">
+					<!-- 8 -->
+					<img src="<?= RACINE; ?>/img/VEYO-STRASBOURG.jpg" alt="Espace et style">
+					<!-- 9 -->
+					<img src="<?= RACINE; ?>/img/BUREAU-BOULOGNE.jpg" alt="Espace et style">
 				</div>
 			</div>
 <?php include('ele/foo.php'); ?>
