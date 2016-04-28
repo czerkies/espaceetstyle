@@ -11,12 +11,12 @@ include('ele/doc.php');
 						Agencer votre espace, le faire vivre pour révéler votre potentiel...
 					</div>
 				</a>
-					<div class="citation">
-						<p>"Le fer se rouille, faute de s'en servir,<br>
-						 l'eau stagnante perd de sa pureté et se glace par le froid.<br>
-						 De même, l'inaction sape la vigueur de l'esprit."<br>
-						<span>Léonard De Vinci</span></p>
-					</div>
+				<div class="citation">
+					<p>"Le fer se rouille, faute de s'en servir,<br>
+					 l'eau stagnante perd de sa pureté et se glace par le froid.<br>
+					 De même, l'inaction sape la vigueur de l'esprit."<br>
+					<span>Léonard De Vinci</span></p>
+				</div>
 				<div class="car_acc_back">
 					<!-- 1 -->
 					<img src="<?= RACINE; ?>/img/BUREAU-BOULOGNE.jpg" alt="Espace et style">
