@@ -6,7 +6,7 @@
 					<img src="<?= RACINE; ?>Ban1440jpg.jpg" alt="Espace et Style - Spécialisés dans l’agencement d’espace">
 				</div>
 				<?php
-				if ($menu === 'accueil') {
+				if($menu === 'accueil') {
 					echo '<p class="signature_acc">Agencement - Décoration - Rénovation</p>';
 				} else {
 					echo '<p class="signature">Agencer votre espace, le faire vivre pour révéler votre potentiel...</p>';
