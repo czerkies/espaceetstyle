@@ -3,4 +3,4 @@
 $nomRealisation = 'Venise Collection';
 $descriptionRealisation = '';
 
-include 'template/fonction_template.php';
+include 'template/template_realisation.php';

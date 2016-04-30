@@ -3,4 +3,4 @@
 $nomRealisation = 'Franchise Nicotech';
 $descriptionRealisation = '';
 
-include 'template/fonction_template.php';
+include 'template/template_realisation.php';
