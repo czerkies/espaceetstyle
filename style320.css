@@ -170,6 +170,7 @@ h2 {
 .menu li:hover ul {
 	display: block;
 	animation: menu_trans 500ms ease;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
 @keyframes menu_trans {
 	0%, 25% {
@@ -437,13 +438,13 @@ h2 {
 	animation: center 20s ease-in-out;
 }
 @keyframes center {
-	0%, 7% {
+	0%, 8% {
 		opacity: 0;
 		/*filter: blur(4px);*/
 		-webkit-filter: blur(4px);
 		-webkit-transform: scale(.92);
 	}
-	20% {
+	15% {
 		opacity: 1;
 		/*filter: blur(0);*/
 		-webkit-filter: blur(0);
@@ -616,7 +617,7 @@ a .flech_g img {
 	width: 50px;
 	background: rgba(255, 255, 255, .7);
 	-webkit-backdrop-filter: blur(4px);
-	box-shadow: 0 0 16px rgba(0, 0, 0, .25);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
 	border-radius: 2px;
 	padding: 5px;
 	margin: 125% 0;
@@ -629,13 +630,14 @@ a .flech_g img {
 }
 a:hover .flech_g img,
 a:hover .flech_d img {
-	background: rgba(255, 255, 255, .9);
-	box-shadow: 0 0 16px rgba(0, 0, 0, .5);
+	background: rgba(255, 255, 255, .8);
+	box-shadow: 0 1px 8px rgba(0, 0, 0, .5);
 }
 a:active .flech_d img,
 a:active .flech_g img {
-	transform: scale(.95);
-	box-shadow: 0 0 8px rgba(0,0,0,.25);
+	/*transform: scale(.95);
+	box-shadow: 0 0 8px rgba(0, 0, 0, .25);*/
+	background: rgba(255, 255, 255, .9);
 }
 .sous-foot {
 	width: 100%;
@@ -931,7 +933,7 @@ a:active .flech_g img {
 	.rea_descriptions {
 		min-width: 980px;
 		position: absolute;
-		box-shadow: 0 -8px 8px rgba(0, 0, 0, .2);
+		box-shadow: 0 -2px 2px rgba(0, 0, 0, .2);
 	}
 	.rea_descriptions div {
 	width: 980px;

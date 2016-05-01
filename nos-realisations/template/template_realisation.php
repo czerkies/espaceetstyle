@@ -1,11 +1,8 @@
 <?php
 
-// Scan du repertoire
-$listeRealisations = scandir('../nos-realisations/');
-
-// Création du tableau avec uniquement les fichiers en .php
+// Création du tableau avec uniquement les fichiers du repertoire en .php
 $listePHP = [];
-foreach ($listeRealisations as $key => $value) if(strpos($value, '.php')) $listePHP[] = $value;
+foreach (scandir('../nos-realisations/') as $key => $value) if(strpos($value, '.php')) $listePHP[] = $value;
 
 // On cherche la position de notre fichier actuel
 $currentRealisation = array_search(substr(strrchr($_SERVER["REQUEST_URI"], '/'), 1), $listePHP);
