@@ -1,6 +1,4 @@
-<?php
-include('../ele/doc.php');
-?>
+<?php include('../ele/doc.php'); ?>
 <title>Espace et Style - Page inexistante</title>
 <?php include('../ele/head_menu.php'); ?>
 <div class="car">
