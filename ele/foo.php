@@ -5,7 +5,7 @@
 			</p>
 			<!-- À propos du site : espaceetstyle.fr Version 3.2.0 BETA 1 - Intégré et développé par Roman Czerkies : romanczerkies.fr  -->
 		</footer>
-		<?php if($menu === 'accueil'){ ?>
+		<?php if(isset($menu) && $menu === 'accueil'){ ?>
 				<div class="sous-foot">
 					<h1>Agencement d'espace : aménagement boutique et magasin, Bienvenue chez Espace et Style</h1>
 					<p><strong>Agence de design de magasin</strong>, Espace Et Style vous accompagne dans tous vos <strong>projets de <a href="<?= RACINE; ?>votre-projet/renovation-de-magasin/">rénovation</a></strong>, décoration ou <a href="<?= RACINE; ?>votre-projet/agencement-de-magasin/">agencement</a>.<br>
