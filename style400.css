@@ -215,6 +215,19 @@ h2 {
 	width: 100%;
 	float: left;
 	z-index: -200;
+	animation: dezoom_acc 20s ease-out;
+}
+@keyframes dezoom_acc {
+	0%, 8% {
+		transform: scale(1.15);
+		opacity: 0;
+	}
+	15% {
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+	}
 }
 .car_acc_back img {
 	filter: brightness(1.125);
@@ -251,7 +264,7 @@ h2 {
 }
 
 @keyframes def_acc_1 {
-	0%, 3%, 17%, 100% {
+	0%, 17%, 100% {
 		opacity: 0;
 	}
 	7%, 13% {
