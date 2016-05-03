@@ -218,12 +218,16 @@ h2 {
 	animation: dezoom_acc 20s ease-out;
 }
 @keyframes dezoom_acc {
-	0%, 8% {
+	0%, 15% {
+		-webkit-filter: blur(8px);
 		transform: scale(1.15);
 		opacity: 0;
 	}
-	15% {
+	25% {
 		opacity: 1;
+	}
+	50% {
+		-webkit-filter: blur(0);
 	}
 	100% {
 		transform: scale(1);
@@ -337,7 +341,7 @@ h2 {
 }
 
 @keyframes boun_acc {
-	0% {
+	0%, 5% {
 		opacity: 0;
 		transform: rotate(-12deg) scale(1.5);
 	}
@@ -448,16 +452,16 @@ h2 {
 	float: left;
 	margin: 25px 0;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .75), 0 0 16px rgba(255, 255, 255, 1);
-	animation: center 20s ease-in-out;
+	animation: center 20s ease-out;
 }
 @keyframes center {
-	0%, 8% {
+	0%, 15% {
 		opacity: 0;
 		/*filter: blur(4px);*/
 		-webkit-filter: blur(4px);
 		-webkit-transform: scale(.92);
 	}
-	15% {
+	20% {
 		opacity: 1;
 		/*filter: blur(0);*/
 		-webkit-filter: blur(0);
