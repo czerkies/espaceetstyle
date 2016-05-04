@@ -202,7 +202,7 @@ h2 {
 	float: left;
   width: 100%;
 	height: 105%;
-  position: absolute;
+  /*position: absolute;*/
   /*z-index: -100;*/
 	background: url(img/img_acc.png) no-repeat center center;
 	background-size: cover;
@@ -215,15 +215,15 @@ h2 {
 	width: 100%;
 	float: left;
 	z-index: -200;
-	animation: dezoom_acc 20s ease-out;
+	animation: dezoom_acc 20s ease-in-out;
 }
 @keyframes dezoom_acc {
-	0%, 15% {
-		-webkit-filter: blur(8px);
+	0%, 10% {
+		-webkit-filter: blur(6px);
 		transform: scale(1.15);
 		opacity: 0;
 	}
-	25% {
+	15% {
 		opacity: 1;
 	}
 	50% {
@@ -412,6 +412,7 @@ h2 {
 	font-size: 1.5em;
 }
 .citation {
+	position: absolute;
 	font-family: 'cdr', arial;
 	color: #000;
 	font-size: 1.75em;
