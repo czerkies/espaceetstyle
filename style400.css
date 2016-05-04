@@ -97,13 +97,13 @@ h2 {
 	float: left;
 	margin: 5%;
 	letter-spacing: 1px;
-	transition: box-shadow 250ms ease;
+	transition: box-shadow 250ms ease, background 250ms ease;
 }
 .coor a:hover {
 	box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
 }
 .coor a:active {
-	box-shadow: none;
+	background: #b3b3b3;
 }
 .menu {
 	width: 100%;
