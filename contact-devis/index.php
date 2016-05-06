@@ -1,5 +1,4 @@
 <?php
-include_once 'mail.php';
 $menu = 'contact';
 include('../ele/doc.php');
 ?>
@@ -21,7 +20,7 @@ include('../ele/doc.php');
 					<label class="hidden_label" for="message">Message</label>
 					<textarea type="text" name="message" id="message" placeholder="Descriptif de vos besoins" title="Descriptif de vos besoins" required><?php if(isset($_POST['message'])) echo $_POST['message']; ?></textarea>
 					<input class="rbt" type="text" name="rbt" value="<?php if(isset($_POST['rbt'])) echo $_POST['rbt']; ?>">
-					<input type="submit" value="Envoyer">
+					<input type="submit" name="contact" value="Envoyer">
 					<?php if(isset($msg)){
 						echo '<div>'.$msg.'</div>';
 					} ?>

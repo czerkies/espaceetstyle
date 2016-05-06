@@ -3,7 +3,7 @@
 			<p>
 				<a href="http://www.groupe-nisaba.fr/">Groupe NISABA SAS</a> au capital social de 8 000 € • 537 679 482 000 35 • <a target="_blank" href="https://www.google.fr/maps/place/36+Rue+du+Faubourg+Valmorin,+28210+Nogent-le-Roi/@48.6511556,1.5253007,440m/data=!3m1!1e3!4m2!3m1!1s0x47e40314802bed59:0x1deca07c1ed51afc!6m1!1e1">36 rue du Faubourg Valmorin 28 210 NOGENT LE ROI</a> • <a href="tel:0175920943">01 75 92 09 43</a> • <a href="mailto:contact@espaceetstyle.fr">contact@espaceetstyle.fr</a>
 			</p>
-			<!-- À propos du site : espaceetstyle.fr Version 3.2.0 BETA 1 - Intégré et développé par Roman Czerkies : romanczerkies.fr  -->
+			<!-- À propos du site : espaceetstyle.fr Version 4.0.0 BETA 2 - Intégré et développé par Roman Czerkies : romanczerkies.fr  -->
 		</footer>
 		<?php if(isset($menu) && $menu === 'accueil'){ ?>
 				<div class="sous-foot">
@@ -15,7 +15,6 @@
 				</div>
 			<?php } ?>
 	<script id="tg_passage_cybercite" type="text/javascript" src="http://tracking.veille-referencement.com/TAG/TAG_passage.js?idsite=13032"></script>
-	<!-- Hotjar Tracking Code for www.espaceetstyle.fr -->
 	<script>
 	    (function(h,o,t,j,a,r){
 	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
