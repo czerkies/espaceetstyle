@@ -7,7 +7,7 @@ include('../../ele/doc.php');
 <meta name="description" content="Étude de faisabilité de votre projet, sa conception et les travaux clés en mains.">
 <?php include('../../ele/head_menu.php'); ?>
 <div class="car">
-	<img class="anim" src="../boutique_chaussure.jpg" alt="Espace et Style - Projet">
+	<img class="anim" src="jegado.jpg" alt="Espace et Style - Projet - Point de vente - Jegado">
 </div>
 <div class="bloc_100">
 	<div class="bloc_0">
