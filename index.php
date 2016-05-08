@@ -19,23 +19,23 @@ include('ele/doc.php');
 				</div>
 				<div class="car_acc_back">
 					<!-- 1 -->
-					<img src="<?= RACINE; ?>img/BUREAU-BOULOGNE.jpg" alt="Espace et style">
+					<img src="<?= RACINE; ?>img/BUREAU-BOULOGNE.jpg" alt="Espace et style - Bureau de boulogne">
 					<!-- 2 -->
-					<img src="<?= RACINE; ?>img/VEYO-STRASBOURG.jpg" alt="Espace et style">
+					<img src="<?= RACINE; ?>img/VEYO-STRASBOURG.jpg" alt="Espace et style - Veyo Strasbourg">
 					<!-- 3 -->
-					<img src="<?= RACINE; ?>img/BUREAU-GENTILLY.jpg" alt="Espace et style">
+					<img src="<?= RACINE; ?>img/BUREAU-GENTILLY.jpg" alt="Espace et style - Bureau Gentilly">
 					<!-- 4 -->
-					<img src="<?= RACINE; ?>img/Intek.jpg" alt="Espace et style">
+					<img src="<?= RACINE; ?>img/Intek.jpg" alt="Espace et style - Intek">
 					<!-- 5 -->
-					<img src="<?= RACINE; ?>img/Jegado.jpg" alt="Espace et style">
+					<img src="<?= RACINE; ?>img/Jegado.jpg" alt="Espace et style - Jegado">
 					<!-- 6 -->
-					<img src="<?= RACINE; ?>img/LE-TOOLBAR.jpg" alt="Espace et style">
+					<img src="<?= RACINE; ?>img/LE-TOOLBAR.jpg" alt="Espace et style - Le Toolbar">
 					<!-- 7 -->
-					<img src="<?= RACINE; ?>img/MADAME-M-LILLE.jpg" alt="Espace et style">
+					<img src="<?= RACINE; ?>img/MADAME-M-LILLE.jpg" alt="Espace et style - Madame Mr.Lille">
 					<!-- 8 -->
-					<img src="<?= RACINE; ?>img/Venise-Collection.jpg" alt="Espace et style">
+					<img src="<?= RACINE; ?>img/Venise-Collection.jpg" alt="Espace et style - Venise Collection">
 					<!-- 9 -->
-					<img src="<?= RACINE; ?>img/VEYO-STRASBOURG.jpg" alt="Espace et style">
+					<img src="<?= RACINE; ?>img/MARCY-PARIS.jpg" alt="Espace et style - Marcy Paris">
 				</div>
 			</div>
 <?php include('ele/foo.php'); ?>
