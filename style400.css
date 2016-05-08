@@ -141,7 +141,6 @@ h2 {
 .menu li a:hover {
 	color: #fff;
 	background: #cbcccb;
-	/*text-shadow:0 0 8px #fff;*/
 }
 .menu li ul {
 	background: rgba(34, 119, 142, .9);
@@ -202,11 +201,23 @@ h2 {
 	float: left;
   width: 100%;
 	height: 105%;
-  /*position: absolute;*/
-  /*z-index: -100;*/
 	background: url(img/img_acc.png) no-repeat center center;
 	background-size: cover;
 	animation: boun_acc 20s ease-out;
+	/*-webkit-filter: drop-shadow(0 1px 8px rgba(0, 0, 0, .25));*/
+	filter: drop-shadow(0 1px 8px rgba(0, 0, 0, .25));
+}
+@keyframes boun_acc {
+	0%, 5% {
+		opacity: 0;
+		transform: rotate(-12deg) scale(1.5);
+	}
+	10% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotate(0) scale(1);
+	}
 }
 .car_acc_back {
 	position: absolute;
@@ -219,23 +230,25 @@ h2 {
 }
 @keyframes dezoom_acc {
 	0%, 10% {
-		-webkit-filter: blur(6px);
+		/* MAJ Chrome & Firefox -webkit-filter: blur(6px);
+		filter: blur(6px);*/
 		transform: scale(1.15);
 		opacity: 0;
 	}
 	15% {
 		opacity: 1;
 	}
-	50% {
+	/* MAJ Chrome & Firefox 50% {
 		-webkit-filter: blur(0);
-	}
+		filter: blur(0);
+	}*/
 	100% {
 		transform: scale(1);
 	}
 }
 .car_acc_back img {
-	filter: brightness(1.125);
-	-webkit-filter: brightness(1.125);
+	filter: opacity(85%);
+	-webkit-filter: opacity(85%);
 	width: 90%;
 	position: absolute;
 }
@@ -332,24 +345,11 @@ h2 {
 	}
 }
 @keyframes def_acc_9 {
-	0%, 83%, 97%, 100% {
+	0%, 83%, 100% {
 		opacity: 0;
 	}
-	87%, 93% {
+	87%, 99% {
 		opacity: 1;
-	}
-}
-
-@keyframes boun_acc {
-	0%, 5% {
-		opacity: 0;
-		transform: rotate(-12deg) scale(1.5);
-	}
-	10% {
-		opacity: 1;
-	}
-	100% {
-		transform: rotate(0) scale(1);
 	}
 }
 @keyframes boun {
@@ -368,7 +368,7 @@ h2 {
 	0% {
 		opacity: 0;
 		transform: scale(1.5);
-		/*filter: blur(0);*/
+		filter: blur(0);
 		-webkit-filter: blur(0);
 	}
 	25% {
@@ -376,7 +376,7 @@ h2 {
 	}
 	100% {
 		transform: scale(1.025);
-		/*filter: blur(4px);*/
+		filter: blur(4px);
 		-webkit-filter: blur(4px);
 	}
 }
@@ -414,11 +414,11 @@ h2 {
 .citation {
 	position: absolute;
 	font-family: 'cdr', arial;
-	color: #000;
+	color: #111;
 	font-size: 1.75em;
 	text-align: center;
 	padding: 10px;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 0 4px rgba(255, 255, 255, 0.5);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 0 4px rgba(255, 255, 255, .75);
 }
 .citation span {
 	margin: 25px 0 0;
@@ -452,19 +452,19 @@ h2 {
 	line-height: 3em;
 	float: left;
 	margin: 25px 0;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, .75), 0 0 16px rgba(255, 255, 255, 1);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .75), 0 0 20px rgba(255, 255, 255, 1);
 	animation: center 20s ease-out;
 }
 @keyframes center {
 	0%, 15% {
 		opacity: 0;
-		/*filter: blur(4px);*/
+		filter: blur(4px);
 		-webkit-filter: blur(4px);
 		-webkit-transform: scale(.92);
 	}
 	20% {
 		opacity: 1;
-		/*filter: blur(0);*/
+		filter: blur(0);
 		-webkit-filter: blur(0);
 	}
 	100% {
@@ -653,9 +653,8 @@ a:hover .flech_d img {
 }
 a:active .flech_d img,
 a:active .flech_g img {
-	/*transform: scale(.95);
-	box-shadow: 0 0 8px rgba(0, 0, 0, .25);*/
 	background: rgba(255, 255, 255, .9);
+	box-shadow: 0 1px 16px rgba(0, 0, 0, .5);
 }
 .sous-foot {
 	width: 100%;
@@ -966,7 +965,7 @@ a:active .flech_g img {
 		width: 100px;
 	}
 	.accueil_center {
-		margin: 225px 0 0;
+		margin: 250px 0 0;
 		font-size: 1.6em;
 	}
 	.sous-foot {
@@ -995,6 +994,7 @@ a:active .flech_g img {
 		width: 50%;
 		float: left;
 	}
+
 }
 
 @media only screen and (min-width: 1440px) {
@@ -1071,4 +1071,5 @@ a:active .flech_g img {
 	.coor_align {
 		margin: 5px auto;
 	}
+
 }
