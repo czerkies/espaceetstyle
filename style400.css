@@ -40,7 +40,7 @@ h2,
 }
 h1,
 .titre__faq {
-	font-size: 1.25em;
+	font-size: 2.25em;
 }
 .bloc_0 h1,
 .bloc_0 .titre__faq {
@@ -53,10 +53,7 @@ h1,
 	margin: 0 0 10px;
 }
 h2 {
-	font-size: 2.25em;
-}
-.prin {
-	width: 100%;
+	font-size: 2em;
 }
 .bloc_100 p a {
 	color: #888;
@@ -701,7 +698,7 @@ a:active .flech_g img {
 .menu_faq li {
 	list-style: none;
 	font-family: 'exp', arial;
-	font-size: .75em;
+	font-size: 1.25em;
 	color: #22778e;
 	padding: 0;
 }
@@ -804,8 +801,8 @@ a:active .flech_g img {
 		margin: 50px 0 0;
 		border-radius: 0 0 2px 2px;
 	}
-	.prin {
-		float: left;
+	h1 {
+		font-size: 1.25em;
 	}
 	.formu {
 		height: auto;
@@ -1011,6 +1008,13 @@ a:active .flech_g img {
 	}
 	.menu_votreprojet {
 		padding: 2% 4%;
+	}
+	.menu_votreprojet li,
+	.menu_faq li {
+		font-size: .75em;
+	}
+	.titre__faq {
+		font-size: 1.25em;
 	}
 
 }
