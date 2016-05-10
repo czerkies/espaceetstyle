@@ -1019,7 +1019,7 @@ a:active .flech_g img {
 
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-device-width: 1440px) {
 
 	.coor,
 	.menu ul,
