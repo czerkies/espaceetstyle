@@ -199,7 +199,7 @@ h2 {
 .car_acc::before {
 	content: "";
 	float: left;
-  width: 100%;
+	width: 100%;
 	height: 105%;
 	background: url(img/img_acc.png) no-repeat center center;
 	background-size: cover;
