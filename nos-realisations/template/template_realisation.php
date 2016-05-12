@@ -1,7 +1,7 @@
 <?php
 
 // Création du tableau avec uniquement les fichiers du repertoire en .php
-$listePHP = [];
+$listePHP = array();
 foreach (scandir('../nos-realisations/') as $key => $value) if(strpos($value, '.php')) $listePHP[] = $value;
 
 // On cherche la position de notre fichier actuel
